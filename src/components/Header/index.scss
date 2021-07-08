@@ -1,0 +1,25 @@
+.App-header {
+  background-color: #282c34;
+  font-size: 13px;
+  font-size: 1.3rem;
+  color: black;
+  text-align: center;
+  padding: 20px 0;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  min-height: 40px;
+  .user-avatar {
+    padding: 0 10px;
+  }
+  a {
+    padding: 0 15px;
+    text-decoration: none;
+    transition: 0.25s all;
+    color: #61dafb;
+    &:hover {
+      color: white;
+    }
+  }
+}

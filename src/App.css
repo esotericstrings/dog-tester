@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.mainContent {
+  display: flex;
+  justify-content: center;
+
+}
+
+.resultsHolder {
+  display: flex;
+  flex-direction: column;
+}
+
+.result {
+  border: 1px solid grey;  
+  padding: 30px 10px;
+  margin: 10px;
+}
